@@ -17,9 +17,12 @@ PyYAML
 neuro_mf
 boto3
 mypy-boto3-s3
-botocore
 fastapi
 uvicorn
 jinja2
 python-multipart
 -e .
+
+pydantic>=1.10.0,<2.0.0
+aiobotocore>=2.5.0,<2.6.0
+botocore>=1.29.161,<1.30.0

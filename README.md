@@ -17,4 +17,5 @@ conda init --all
 cat ~/.bash_profile >> ~/.bashrc
 
 conda activate visa
+
 pip install -r requirements.txt
